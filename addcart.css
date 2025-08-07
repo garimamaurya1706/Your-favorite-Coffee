@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: url(https://onlinemenudt.amaleenrestaurant.com/wp-content/uploads/2023/07/dopio.jpg);
+  
+  padding: 40px;
+  background-blend-mode: screen;
+  text-align: center;
+  background-repeat:no-repeat ;
+  background-size: cover;
+  
+}
+
+.title {
+  margin-bottom: 40px;
+  color: #333;
+  font-size: 32px;
+}
+
+.product-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 220px;
+  transition: 0.3s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.03);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.product-card h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.product-card p {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.add-to-cart {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+.add-to-cart:hover {
+  background: #218838;
+}

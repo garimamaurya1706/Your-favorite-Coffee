@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f7f3f0;
+  color: #3e2f1c;
+  line-height: 1.6;
+}
+
+.about-section {
+  padding: 60px 20px;
+  background-image: url('https://static.vecteezy.com/system/resources/thumbnails/023/010/450/small/the-cup-of-latte-coffee-with-heart-shaped-latte-art-and-ai-generated-free-photo.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
